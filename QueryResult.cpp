@@ -1,5 +1,5 @@
 #include <database/QueryResult.h>
-namespace KHPS
+namespace utils
 {
 	MyQuery QueryResult::get_query()
 	{
