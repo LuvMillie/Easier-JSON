@@ -1,5 +1,5 @@
-#ifndef DATABASE__QUERY_H
-#define DATABASE__QUERY_H
+#ifndef JSON_QUERY_H
+#define JSON_QUERY_H
 #include <nlohmann/json.hpp>
 namespace KHPS
 {
