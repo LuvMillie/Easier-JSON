@@ -1,4 +1,4 @@
-#include <database/QueryResult.h>
+#include <QueryResult.h>
 namespace utils
 {
 	MyQuery QueryResult::get_query()
