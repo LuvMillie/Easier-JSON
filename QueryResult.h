@@ -69,7 +69,7 @@ namespace utils
 			if (file.fail()) {
 				fmt::print("Failed to dump {}.\n", name);
 				return;
-			} file << m_query.dump(indent) << std::endl;
+			} file << get_query().dump(indent) << std::endl;
 			file.close();
 		}
 	};
