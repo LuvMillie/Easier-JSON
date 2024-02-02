@@ -1,5 +1,5 @@
-#ifndef DATABASE__WRITER_H
-#define DATABASE__WRITER_H
+#ifndef QUERY_WRITER_H
+#define QUERY_WRITER_H
 #include <string>
 #include <vector>
 #include <atomic>
@@ -9,8 +9,8 @@
 #include <cstdbool>
 #include <typedef.h>
 #include <fmt/core.h>
-#include <database/MyQuery.h>
-namespace KHPS
+#include <MyQuery.h>
+namespace utils
 {
 	class QueryResult {
 	private:
