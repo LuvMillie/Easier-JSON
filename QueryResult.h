@@ -74,4 +74,4 @@ namespace utils
 		}
 	};
 }
-#endif // !DATABASE__WRITER_H
+#endif // !QUERY_WRITER_H
