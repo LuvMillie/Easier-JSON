@@ -5,4 +5,4 @@ namespace utils
 {
 	using MyQuery = nlohmann::json;
 }
-#endif // !DATABASE__QUERY_H
+#endif // !JSON_QUERY_H
