@@ -64,14 +64,6 @@ namespace utils
 			if (m_query.find(name) != m_query.end())
 				val = m_query[name].get<Args>();
 		}
-		void dump(const std::string& name, const int& indent) {
-			std::ofstream file(name);
-			if (file.fail()) {
-				fmt::print("Failed to dump {}.\n", name);
-				return;
-			} file << get_query().dump(indent) << std::endl;
-			file.close();
-		}
 	};
 }
 #endif // !QUERY_WRITER_H
